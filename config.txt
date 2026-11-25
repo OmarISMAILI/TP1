@@ -1,0 +1,2 @@
+net.ismaili.dao.DaoImpl
+net.ismaili.metier.MetierImpl

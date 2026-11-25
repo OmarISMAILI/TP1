@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://springframework.org"
+       xmlns:xsi="http://w3.org"
+       xsi:schemaLocation="http://springframework.org
+       http://springframework.org/spring-beans.xsd
+http://springframework.org
+http://w3.org ">
+
+    <bean id="d" class="dao.DaoImpl"/>
+
+    <bean id="metier" class="metier.MetierImpl">
+        <property name="dao" ref="dao"/>
+    </bean>
+</beans>
